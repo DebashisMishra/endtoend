@@ -1,11 +1,13 @@
 package com.dailycodebuffer.Springboot.tutorial.repository;
 
-import com.dailycodebuffer.Springboot.tutorial.entity.Department;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManager;
+
+import com.debu.Springboot.tutorial.entity.Department;
+import com.debu.Springboot.tutorial.repository.DepartmentRepository;
 
 import static org.junit.jupiter.api.Assertions.*;
 

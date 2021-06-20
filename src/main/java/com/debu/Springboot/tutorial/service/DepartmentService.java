@@ -1,9 +1,9 @@
-package com.dailycodebuffer.Springboot.tutorial.service;
-
-import com.dailycodebuffer.Springboot.tutorial.entity.Department;
-import com.dailycodebuffer.Springboot.tutorial.error.DepartmentNotFoundException;
+package com.debu.Springboot.tutorial.service;
 
 import java.util.List;
+
+import com.debu.Springboot.tutorial.entity.Department;
+import com.debu.Springboot.tutorial.error.DepartmentNotFoundException;
 
 public interface DepartmentService {
     public Department saveDepartment(Department department);

@@ -1,12 +1,13 @@
-package com.dailycodebuffer.Springboot.tutorial.controller;
+package com.debu.Springboot.tutorial.controller;
 
-import com.dailycodebuffer.Springboot.tutorial.entity.Department;
-import com.dailycodebuffer.Springboot.tutorial.error.DepartmentNotFoundException;
-import com.dailycodebuffer.Springboot.tutorial.service.DepartmentService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+
+import com.debu.Springboot.tutorial.entity.Department;
+import com.debu.Springboot.tutorial.error.DepartmentNotFoundException;
+import com.debu.Springboot.tutorial.service.DepartmentService;
 
 import javax.validation.Valid;
 import java.util.List;

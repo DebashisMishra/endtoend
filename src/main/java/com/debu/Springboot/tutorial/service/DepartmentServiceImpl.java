@@ -1,10 +1,11 @@
-package com.dailycodebuffer.Springboot.tutorial.service;
+package com.debu.Springboot.tutorial.service;
 
-import com.dailycodebuffer.Springboot.tutorial.entity.Department;
-import com.dailycodebuffer.Springboot.tutorial.error.DepartmentNotFoundException;
-import com.dailycodebuffer.Springboot.tutorial.repository.DepartmentRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import com.debu.Springboot.tutorial.entity.Department;
+import com.debu.Springboot.tutorial.error.DepartmentNotFoundException;
+import com.debu.Springboot.tutorial.repository.DepartmentRepository;
 
 import java.util.List;
 import java.util.Objects;

@@ -1,4 +1,4 @@
-package com.dailycodebuffer.Springboot.tutorial.error;
+package com.debu.Springboot.tutorial.error;
 
 public class DepartmentNotFoundException extends Exception{
 

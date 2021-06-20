@@ -1,7 +1,5 @@
 package com.dailycodebuffer.Springboot.tutorial.service;
 
-import com.dailycodebuffer.Springboot.tutorial.entity.Department;
-import com.dailycodebuffer.Springboot.tutorial.repository.DepartmentRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -9,6 +7,10 @@ import org.mockito.Mockito;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
+
+import com.debu.Springboot.tutorial.entity.Department;
+import com.debu.Springboot.tutorial.repository.DepartmentRepository;
+import com.debu.Springboot.tutorial.service.DepartmentService;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
