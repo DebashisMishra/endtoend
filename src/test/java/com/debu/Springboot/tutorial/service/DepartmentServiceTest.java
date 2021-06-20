@@ -1,4 +1,4 @@
-package com.dailycodebuffer.Springboot.tutorial.service;
+package com.debu.Springboot.tutorial.service;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;

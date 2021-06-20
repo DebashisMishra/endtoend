@@ -1,4 +1,4 @@
-package com.dailycodebuffer.Springboot.tutorial.controller;
+package com.debu.Springboot.tutorial.controller;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
